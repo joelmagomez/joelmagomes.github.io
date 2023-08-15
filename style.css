@@ -16,7 +16,7 @@ body{
   }
 
   .form-label {
-    width: 250px;
+    width: 100px;
     height: 35px;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ body{
 
   .form-input {
     height: 30px;
-    width: 75px;
+    width: 150px;
   }
 
   .form-buttons {
