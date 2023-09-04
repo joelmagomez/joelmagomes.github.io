@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+    color: rgb(224, 137, 23);
+    font-size: 12px;
+}
+
+div{
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+}
+
+#um{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#dois{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#tres{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+}
+
+#quatro{
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+
+#cinco{
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+
+#seis{
+    grid-row-start: 4;
+    grid-column-start: 3;
+}
